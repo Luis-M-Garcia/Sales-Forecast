@@ -1,7 +1,7 @@
 # Sales-Forecast
 4-26/4-30 update
 Got data from Kaggle - https://www.kaggle.com/datasets/sureshmecad/supplement-sales-prediction
-Data has a two downloadables, a 'training set', and a 'test set'
+Data has a two downloadables, a training set, and a test set
 I have renamed the test set into a validation set as to not get it confused with the test set I will be using for train/test split for models
 #will update with metadata specifics
 
