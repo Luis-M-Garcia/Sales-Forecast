@@ -1,15 +1,20 @@
 # Sales-Forecast
 4-26/4-30 update
 Got data from Kaggle - https://www.kaggle.com/datasets/sureshmecad/supplement-sales-prediction
+Store_id -	    Unique id for each Store
+Store_Type -	  Type of the Store
+Location_Type -	Type of the location where Store is located
+Region_Code -	  Code of the Region where Store is located
+Date -	        Information about the Date
+Holiday -	      If there is holiday on the given Date, 1 : Yes, 0 : No
+Discount -	    If discount is offered by store on the given Date, Yes/ No
+#Orders -     	Number of Orders received by the Store on the given Day
+Sales	Total Sale for the Store on the given Day
+
 Data has a two downloadables, a training set, and a test set
-I have renamed the test set into a validation set as to not get it confused with the test set I will be using for train/test split for models
-#will update with metadata specifics
+Will load in test set but not really use it
 
-Forecasting 2 months of sales data from 15 months to see how it compares to machine learning models
-End project of the dataset was to predict 2 months from the 17 months we had
-I thus have to test out machine learning models to see which ones predicted values within the 17 months the best and use it to predict the 18th/19th month
-Thus far I have shown that a simple machine learning model outperforms forecasting, even while being restricted heavily
-
-4-30
-Will call it a day for now, data was grouped by month and year, bringing us down to 17 rows for train set, grouped this way so I could use HoltWinters forecast on it
-Actual train set has 160,000 rows and I will use all these rows to train my machine learning model when I update this
+Forecasting 2 months of sales data from 15 months to see how it compares to linear regression
+Going to group data by month and forecast like that, not store by store/day by day
+End project of the dataset was to predict 2 months from the 17 months we had , not going to do this, will simply use data to forecast
+Will still conduct split to test out linear regression on validation set and make sure it's not overfitting
