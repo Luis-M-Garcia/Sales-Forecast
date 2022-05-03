@@ -1,15 +1,15 @@
 # Sales-Forecast
 4-26/4-30 update
 Got data from Kaggle - https://www.kaggle.com/datasets/sureshmecad/supplement-sales-prediction
-Store_id -	    Unique id for each Store
-Store_Type -	  Type of the Store
-Location_Type -	Type of the location where Store is located
-Region_Code -	  Code of the Region where Store is located
-Date -	        Information about the Date
-Holiday -	      If there is holiday on the given Date, 1 : Yes, 0 : No
-Discount -	    If discount is offered by store on the given Date, Yes/ No
-#Orders -     	Number of Orders received by the Store on the given Day
-Sales	Total Sale for the Store on the given Day
+Store_id -	    Unique id for each Store  
+Store_Type -	  Type of the Store  
+Location_Type -	Type of the location where Store is located  
+Region_Code -	  Code of the Region where Store is located  
+Date -	        Information about the Date  
+Holiday -	      If there is holiday on the given Date, 1 : Yes, 0 : No  
+Discount -	    If discount is offered by store on the given Date, Yes/ No  
+#Orders -     	Number of Orders received by the Store on the given Day  
+Sales	Total Sale for the Store on the given Day  
 
 Data has a two downloadables, a training set, and a test set
 Will load in test set but not really use it
