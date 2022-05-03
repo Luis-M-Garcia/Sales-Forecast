@@ -17,4 +17,5 @@ Will load in test set but not really use it
 Forecasting 2 months of sales data from 15 months to see how it compares to linear regression  
 Going to group data by month and forecast like that, not store by store/day by day  
 End project of the dataset was to predict 2 months from the 17 months we had , not going to do this, will simply use data to forecast  
+May 3 : Forecasts were compared, linear regression did slightly better ; Will upload a Tableau after I finish other projects
 #### will probably come back in near future and actually group by store then perform linear regression on each for each day until march and see how it compares
